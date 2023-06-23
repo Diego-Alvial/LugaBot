@@ -6,7 +6,11 @@ Un bot de discord para reproducir musica
 ### Para ejecutar el bot
 1. Agregar archivo `.env` con los valores para `TOKEN` para iniciar sesión con el bot, `CLIENT_ID` y `GUILD_ID` para reconocer el servidor en donde se ejecutará el bot.
 2. Correr `npm install`
-3. Correr `npm start` 
+3. En Windows: Descargar ffmpeg y poner el .exe en la carpeta raiz
+   
+   En Linux: usar algun package manager (como apt) para instalar ffmpeg en el sistema
+4. Correr `npm start` 
+
 ### Para usar el bot en el servidor de discord
 1. Entra a un canal de audio
 2. Ejecuta los commandos de reproduccion descritos [acá](#comandos)
