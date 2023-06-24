@@ -3,7 +3,7 @@
 FROM node:18-alpine
 ENV NODE_ENV=production
 
-RUN  apt-get update && apt-get install 'ffmpeg'
+RUN apk update && apk add --no-cache ffmpeg
 
 WORKDIR /app
 
