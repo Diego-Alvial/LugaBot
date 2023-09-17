@@ -99,7 +99,6 @@ module.exports = {
     if (!interaction.member.voice.channel) return interaction.reply("Necesitas estar dentro de un canal de voz para usar el comando. IMBÉCIL")
 
     const url = interaction.options.getString("url");
-    console.log(url);
     const result = await client.player.search(url, {
       requestedBy: interaction.user,
       searchEngine: QueryType.AUTO,
